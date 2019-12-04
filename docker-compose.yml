@@ -4,8 +4,6 @@ services:
   karma-puppeteer-chromium:
     container_name: karma-puppeteer-chromium
     image: humanwebpl/karma-puppeteer-chromium:latest
-    build:
-      context: ./
     volumes:
       - "./:/app"
     command: tail -f /dev/null
