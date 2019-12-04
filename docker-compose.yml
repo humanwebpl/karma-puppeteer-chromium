@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  karma-puppeteer-chromium:
+    container_name: karma-puppeteer-chromium
+    build:
+      context: ./
+    image: karma-puppeteer-chromium:latest
+    volumes:
+      - "./:/app"
+    command: tail -f /dev/null
