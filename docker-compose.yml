@@ -3,7 +3,7 @@ version: '3.5'
 services:
   karma-puppeteer-chromium:
     container_name: karma-puppeteer-chromium
-    image: humanwebpl/karma-puppeteer-chromium:latest
+    image: humanweb/karma-puppeteer-chromium:latest
     volumes:
       - "./:/app"
     command: tail -f /dev/null
