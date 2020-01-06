@@ -1,16 +1,19 @@
 {
-  "name": "seohtml",
-  "version": "1.0.0",
+  "name": "karma-puppeteer-chromium",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "build": "webpack --mode production",
+    "lint": "eslint \"src/**.js\" \"test/**.js\"",
+    "test": "karma start --watch"
   },
   "keywords": [
-    "seo",
-    "html",
-    "cms",
-    "javascript"
+    "karma",
+    "puppeteer",
+    "chromium",
+    "webpack",
+    "eslint"
   ],
   "author": "",
   "license": "ISC",
@@ -20,8 +23,10 @@
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
-    "puppeteer-core": "^2.0.0"
+    "karma-webpack": "^4.0.2",
+    "puppeteer-core": "^2.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
