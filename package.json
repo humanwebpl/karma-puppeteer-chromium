@@ -21,6 +21,7 @@
   "dependencies": {
     "eslint": "^6.7.2",
     "jasmine-core": "^3.5.0",
+    "jquery": "^3.4.1",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
